@@ -1,0 +1,16 @@
+const path = require('path');
+
+module.exports = {
+  'env': 'development',
+  'config': path.resolve('database/config', 'config.json'),
+  'models-path': path.resolve('database', 'models'),
+  'seeders-path': path.resolve('database', 'seeders'),
+  'migrations-path': path.resolve('database', 'migrations'),
+  define: {
+    underscored: true,
+    underscoredAll: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  },
+
+};

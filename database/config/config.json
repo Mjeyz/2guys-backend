@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "db-admin",
+    "password": "!Qwerty00123",
+    "database": "2guys",
+    "host": "141.95.127.181",
+    "dialect": "mysql"
+  },
+  "staging": {
+    "username": "db-admin",
+    "password": "!Qwerty00123",
+    "database": "2guys",
+    "host": "141.95.127.181",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "db-admin",
+    "password": "!Qwerty00123",
+    "database": "2guys",
+    "host": "141.95.127.181",
+    "dialect": "mysql"
+  }
+}
